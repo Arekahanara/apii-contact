@@ -4,13 +4,45 @@
     <meta charset="UTF-8" />
     <link rel="icon" type="image/svg+xml" href="/favicon.ico" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Vite App</title>
+    <title>Contact - APII</title>
   </head>
-  <body>
-    <h1 class="text-3xl font-bold underline">
-      Hello world!
-    </h1>
-    <div id="app"></div>
+  <body class="h-screen flex flex-col">
+    <header class="p-10 absolute top-0 left-0">
+      <a href="#">
+        <img src="/APII-logo-orange.png" class="logo w-20" alt="APII logo" />
+      </a>
+    </header>
+    <main class="h-full flex flex-row items-center">
+      <div class="basis-8/12 p-10 font-bold uppercase card">
+        <h2 class="text-3xl mb-2">Moin, Kia Ora or just Hey!</h2>
+        <h1 class="text-6xl mb-2">I am Alexander Ingwersen</h1>
+        <h3 class="text-1xl mb-2">
+          I'm a Media Designer and Front End Developer who loves to create new things, no matter if Web, Design, Photo, Video or other cool stuff.
+        </h3>
+        <a href="mailto:info@apii.me" class="mb-2 inline-block myBtn">Contact me</a>
+        <ul>
+          <li class="inline"><a href="https://www.linkedin.com/in/alexander-ingwersen/" target="_blank">LinkedIn</a></li>
+          <li class="inline"><a href="https://www.xing.com/profile/Alexander_Ingwersen/" target="_blank">Xing</a></li>
+          <li class="inline"><a href="https://www.instagram.com/arekahanara/" target="_blank">Instagram</a></li>
+          <li class="inline"><a href="https://github.com/Arekahanara" target="_blank">GitHub</a></li>
+        </ul>
+      </div>
+      <div class="basis-4/12 h-full flex items-center justify-center profile">
+        <img src="/profile.jpg" class="w-9/10" alt="APII profile" />
+      </div>
+    </main>
+    <footer class="p-10 font-bold uppercase absolute bottom-0 left-0">
+      <h5>Alexander Ingwersen</h5>
+      <ul>
+        <li class="inline">Siedlung 4,</li>
+        <li class="inline">29491 Prezelle,</li>
+        <li class="inline">Germany</li>
+      </ul>
+      <ul>
+        <li class="inline">Christchurch,</li>
+        <li class="inline">New Zealand</li>
+      </ul>
+    </footer>
     <script type="module" src="/main.js"></script>
   </body>
 </html>
