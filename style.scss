@@ -2,6 +2,12 @@
 @tailwind components;
 @tailwind utilities;
 
+$fa-font-path: "/node_modules/@fortawesome/fontawesome-free/webfonts";
+
+@import "/node_modules/@fortawesome/fontawesome-free/scss/fontawesome.scss";
+@import "/node_modules/@fortawesome/fontawesome-free/scss/brands.scss";
+@import "/node_modules/@fortawesome/fontawesome-free/scss/solid.scss";
+
 $blue: #0c2646;
 $orange: #FE5000;
 
@@ -21,13 +27,11 @@ $orange: #FE5000;
   -webkit-text-size-adjust: 100%;
 }
 
-#app {
-  width: 100%;
+body {
   margin: 0;
 }
 
 a {
-  font-weight: 500;
   color: $orange;
   text-decoration: inherit;
   
@@ -36,20 +40,17 @@ a {
   }
 }
 
-body {
-  margin: 0;
-}
-
 .myBtn {
-  border: 1px solid transparent;
+  border: 2px solid transparent;
   padding: 0.6em 1.2em;
   color: white;
   background-color: $orange;
   cursor: pointer;
-  transition: border-color 0.25s;
+  transition: all 0.25s;
   
   &:hover {
     border-color: white;
+    background-color: transparent;
   }
   
   &:focus,
