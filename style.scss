@@ -34,6 +34,7 @@ body {
 a {
   color: $orange;
   text-decoration: inherit;
+  transition: all 0.25s;
   
   &:hover {
     color: white;
