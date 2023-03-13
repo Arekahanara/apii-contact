@@ -1,4 +1,5 @@
 # apii-contact
+A simple static contact page that I implemented with Vite, HTML, SCSS, JS, Tailwind and Font Awesome.
 
 # Vanilla Setup
 
